@@ -1,10 +1,14 @@
-pragma solidity ^0.4.21;
+pragma solidity ^0.4.24;
 
-import '../node_modules/openzeppelin-solidity/contracts/token/ERC20/StandardToken.sol';
-import '../node_modules/openzeppelin-solidity/contracts/token/ERC20/DetailedERC20.sol';
+import './StandardToken.sol';
+import './DetailedERC20.sol';
 
 contract SANDER1 is StandardToken, DetailedERC20 {
 
+    /**
+    * 10 tokens equal 10 songs equal 1 album
+    * uint256 supply
+    */
     uint256 internal supply = 10 * 1 ether;
 
     constructor () 

@@ -1,6 +1,6 @@
-pragma solidity ^0.4.21;
+pragma solidity ^0.4.24;
 
-import '../node_modules/openzeppelin-solidity/contracts/crowdsale/validation/CappedCrowdsale.sol';
+import './CappedCrowdsale.sol';
 import './SANDER1.sol';
 
 contract SuperCrowdsale is CappedCrowdsale {
@@ -34,13 +34,6 @@ contract SuperCrowdsale is CappedCrowdsale {
     {
         owner = msg.sender;
         token = _token;
-    }
-    
-    /**
-    * @dev fallback function ***DO NOT OVERRIDE***
-    */
-    function () external payable {
-        buyTokens(msg.sender);
     }
 
     /**
