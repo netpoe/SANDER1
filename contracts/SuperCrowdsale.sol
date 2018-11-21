@@ -2,6 +2,7 @@ pragma solidity ^0.4.24;
 
 import './CappedCrowdsale.sol';
 import './SANDER1.sol';
+import './SafeERC20.sol';
 
 contract SuperCrowdsale is CappedCrowdsale {
     
@@ -13,17 +14,16 @@ contract SuperCrowdsale is CappedCrowdsale {
     }
 
     address public owner;
-    uint256 internal weiAmount;
     SANDER1 public token;
+    uint256 internal weiAmount;
 
     event ProcessedRemainder(uint256 remainder);
 
     constructor (
         SANDER1 _token, // sander1.superander.eth
-        address _wallet, // superander.eth
+        address _wallet, // wallet.superander.eth
         uint256 _cap
-        )
-        public 
+    ) public 
         Crowdsale(
             _wallet,
             _token
@@ -42,7 +42,7 @@ contract SuperCrowdsale is CappedCrowdsale {
     * In the future, the cap will be calculated by an oracle at the time of the purchase
     */
     function setCap(uint256 _cap) onlyOwner public {
-        cap = _cap.mul(token.totalSupply().div(1 ether));
+        cap = _cap.mul(token.allowance(owner, address(this)).div(1 ether));
     }
 
     /**
@@ -50,30 +50,16 @@ contract SuperCrowdsale is CappedCrowdsale {
    * @param _beneficiary Address performing the token purchase
    */
     function buyTokens(address _beneficiary) public payable {
-        
         weiAmount = msg.value;
-        
         // if wei raised equals total cap, stop the crowdsale.
         _preValidatePurchase(_beneficiary, weiAmount);
-        
         uint256 tokens = getTokenAmount(weiAmount);
-
         _processPurchase(_beneficiary, tokens);
-        emit TokenPurchase(
-            msg.sender,
-            _beneficiary,
-            weiAmount,
-            tokens
-        );
-
+        emit TokenPurchase(msg.sender, _beneficiary, weiAmount, tokens);
         _updatePurchasingState(_beneficiary, weiAmount);
-
         _forwardFunds();
-        
         weiRaised = weiRaised.add(weiAmount);
-        
         _postValidatePurchase(_beneficiary, weiAmount);
-        
         weiAmount = 0;
     }
 
@@ -92,6 +78,6 @@ contract SuperCrowdsale is CappedCrowdsale {
        * @return Number of tokens that can be purchased with the specified _weiAmount
    */
     function getTokenAmount(uint256 _weiAmount) public view returns (uint256) {
-        return _weiAmount.mul(token.totalSupply()).div(cap);
+        return _weiAmount.mul(token.allowance(owner, address(this))).div(cap);
     }
 }
