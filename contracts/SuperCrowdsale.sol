@@ -42,7 +42,7 @@ contract SuperCrowdsale is CappedCrowdsale {
     * In the future, the cap will be calculated by an oracle at the time of the purchase
     */
     function setCap(uint256 _cap) onlyOwner public {
-        cap = _cap.mul(token.allowance(owner, address(this)).div(1 ether));
+        cap = _cap;
     }
 
     /**
