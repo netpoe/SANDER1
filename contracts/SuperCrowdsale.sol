@@ -21,28 +21,18 @@ contract SuperCrowdsale is CappedCrowdsale {
 
     constructor (
         SANDER1 _token, // sander1.superander.eth
-        address _wallet, // wallet.superander.eth
-        uint256 _cap
+        address _wallet // wallet.superander.eth
     ) public 
         Crowdsale(
             _wallet,
             _token
         ) 
         CappedCrowdsale(
-            _cap
+            217911580000000000000 // 217.91158 ETH
         ) 
     {
         owner = msg.sender;
         token = _token;
-    }
-
-    /**
-    * @dev set total cap in WEI
-    * @param _cap uint256
-    * In the future, the cap will be calculated by an oracle at the time of the purchase
-    */
-    function setCap(uint256 _cap) onlyOwner public {
-        cap = _cap;
     }
 
     /**
