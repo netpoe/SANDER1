@@ -1,0 +1,38 @@
+2019/01/15 11:53:43 pre processing SANDER1.sol
+2019/01/15 11:53:43 pre processing StandardToken.sol
+2019/01/15 11:53:43 pre processing DetailedERC20.sol
+2019/01/15 11:53:43 pre processing BasicToken.sol
+2019/01/15 11:53:43 pre processing ERC20.sol
+2019/01/15 11:53:43 pre processing ERC20Basic.sol
+2019/01/15 11:53:43 pre processing SafeMath.sol
+2019/01/15 11:53:43 BasicToken.sol remains unresolved
+2019/01/15 11:53:43 ERC20.sol remains unresolved
+2019/01/15 11:53:43 Resolved  ERC20Basic.sol
+2019/01/15 11:53:43 Resolved  SafeMath.sol
+2019/01/15 11:53:43 StandardToken.sol remains unresolved
+2019/01/15 11:53:43 DetailedERC20.sol remains unresolved
+2019/01/15 11:53:43 SANDER1.sol remains unresolved
+2019/01/15 11:53:43 StandardToken.sol remains unresolved
+2019/01/15 11:53:43 DetailedERC20.sol remains unresolved
+2019/01/15 11:53:43 SANDER1.sol remains unresolved
+2019/01/15 11:53:43 BasicToken.sol remains unresolved
+2019/01/15 11:53:43 ERC20.sol remains unresolved
+2019/01/15 11:53:43 Written ERC20Basic.sol (7) lines
+2019/01/15 11:53:43 Written SafeMath.sol (46) lines
+2019/01/15 11:53:43 SANDER1.sol remains unresolved
+2019/01/15 11:53:43 Resolved  BasicToken.sol
+2019/01/15 11:53:43 Resolved  ERC20.sol
+2019/01/15 11:53:43 StandardToken.sol remains unresolved
+2019/01/15 11:53:43 DetailedERC20.sol remains unresolved
+2019/01/15 11:53:43 StandardToken.sol remains unresolved
+2019/01/15 11:53:43 DetailedERC20.sol remains unresolved
+2019/01/15 11:53:43 SANDER1.sol remains unresolved
+2019/01/15 11:53:43 Written BasicToken.sol (40) lines
+2019/01/15 11:53:43 Written ERC20.sol (15) lines
+2019/01/15 11:53:43 Resolved  StandardToken.sol
+2019/01/15 11:53:43 Resolved  DetailedERC20.sol
+2019/01/15 11:53:43 SANDER1.sol remains unresolved
+2019/01/15 11:53:43 Written StandardToken.sol (112) lines
+2019/01/15 11:53:43 Written DetailedERC20.sol (12) lines
+2019/01/15 11:53:43 Resolved  SANDER1.sol
+2019/01/15 11:53:43 Written SANDER1.sol (21) lines

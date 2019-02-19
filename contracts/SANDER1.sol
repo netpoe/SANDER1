@@ -1,7 +1,7 @@
 pragma solidity ^0.4.24;
 
-import './StandardToken.sol';
-import './DetailedERC20.sol';
+import "./StandardToken.sol";
+import "./DetailedERC20.sol";
 
 contract SANDER1 is StandardToken, DetailedERC20 {
 

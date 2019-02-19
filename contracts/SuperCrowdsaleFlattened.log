@@ -1,0 +1,67 @@
+2019/01/15 12:41:12 pre processing SuperCrowdsale.sol
+2019/01/15 12:41:12 pre processing CappedCrowdsale.sol
+2019/01/15 12:41:12 pre processing SANDER1.sol
+2019/01/15 12:41:12 pre processing SafeERC20.sol
+2019/01/15 12:41:12 pre processing DetailedERC20.sol
+2019/01/15 12:41:12 pre processing SafeMath.sol
+2019/01/15 12:41:12 pre processing Crowdsale.sol
+2019/01/15 12:41:12 pre processing StandardToken.sol
+2019/01/15 12:41:12 pre processing ERC20Basic.sol
+2019/01/15 12:41:12 pre processing ERC20.sol
+2019/01/15 12:41:12 pre processing BasicToken.sol
+2019/01/15 12:41:12 CappedCrowdsale.sol remains unresolved
+2019/01/15 12:41:12 SANDER1.sol remains unresolved
+2019/01/15 12:41:12 SafeERC20.sol remains unresolved
+2019/01/15 12:41:12 DetailedERC20.sol remains unresolved
+2019/01/15 12:41:12 BasicToken.sol remains unresolved
+2019/01/15 12:41:12 SuperCrowdsale.sol remains unresolved
+2019/01/15 12:41:12 Resolved  SafeMath.sol
+2019/01/15 12:41:12 Crowdsale.sol remains unresolved
+2019/01/15 12:41:12 StandardToken.sol remains unresolved
+2019/01/15 12:41:12 Resolved  ERC20Basic.sol
+2019/01/15 12:41:12 ERC20.sol remains unresolved
+2019/01/15 12:41:12 DetailedERC20.sol remains unresolved
+2019/01/15 12:41:12 CappedCrowdsale.sol remains unresolved
+2019/01/15 12:41:12 SANDER1.sol remains unresolved
+2019/01/15 12:41:12 SafeERC20.sol remains unresolved
+2019/01/15 12:41:12 StandardToken.sol remains unresolved
+2019/01/15 12:41:12 Written ERC20Basic.sol (7) lines
+2019/01/15 12:41:12 Resolved  ERC20.sol
+2019/01/15 12:41:12 BasicToken.sol remains unresolved
+2019/01/15 12:41:12 SuperCrowdsale.sol remains unresolved
+2019/01/15 12:41:12 Written SafeMath.sol (46) lines
+2019/01/15 12:41:12 Crowdsale.sol remains unresolved
+2019/01/15 12:41:12 StandardToken.sol remains unresolved
+2019/01/15 12:41:12 Written ERC20.sol (15) lines
+2019/01/15 12:41:12 Resolved  BasicToken.sol
+2019/01/15 12:41:12 SuperCrowdsale.sol remains unresolved
+2019/01/15 12:41:12 Crowdsale.sol remains unresolved
+2019/01/15 12:41:12 Resolved  DetailedERC20.sol
+2019/01/15 12:41:12 CappedCrowdsale.sol remains unresolved
+2019/01/15 12:41:12 SANDER1.sol remains unresolved
+2019/01/15 12:41:12 Resolved  SafeERC20.sol
+2019/01/15 12:41:12 SuperCrowdsale.sol remains unresolved
+2019/01/15 12:41:12 Crowdsale.sol remains unresolved
+2019/01/15 12:41:12 StandardToken.sol remains unresolved
+2019/01/15 12:41:12 Written BasicToken.sol (40) lines
+2019/01/15 12:41:12 CappedCrowdsale.sol remains unresolved
+2019/01/15 12:41:12 SANDER1.sol remains unresolved
+2019/01/15 12:41:12 Written SafeERC20.sol (33) lines
+2019/01/15 12:41:12 Written DetailedERC20.sol (12) lines
+2019/01/15 12:41:12 CappedCrowdsale.sol remains unresolved
+2019/01/15 12:41:12 SANDER1.sol remains unresolved
+2019/01/15 12:41:12 Resolved  Crowdsale.sol
+2019/01/15 12:41:12 Resolved  StandardToken.sol
+2019/01/15 12:41:12 SuperCrowdsale.sol remains unresolved
+2019/01/15 12:41:12 CappedCrowdsale.sol remains unresolved
+2019/01/15 12:41:12 SANDER1.sol remains unresolved
+2019/01/15 12:41:12 SuperCrowdsale.sol remains unresolved
+2019/01/15 12:41:12 Written Crowdsale.sol (181) lines
+2019/01/15 12:41:12 Written StandardToken.sol (112) lines
+2019/01/15 12:41:12 Resolved  CappedCrowdsale.sol
+2019/01/15 12:41:12 Resolved  SANDER1.sol
+2019/01/15 12:41:12 SuperCrowdsale.sol remains unresolved
+2019/01/15 12:41:12 Written CappedCrowdsale.sol (39) lines
+2019/01/15 12:41:12 Written SANDER1.sol (21) lines
+2019/01/15 12:41:12 Resolved  SuperCrowdsale.sol
+2019/01/15 12:41:12 Written SuperCrowdsale.sol (67) lines

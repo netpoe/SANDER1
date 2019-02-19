@@ -1,8 +1,8 @@
 pragma solidity ^0.4.24;
 
-import './CappedCrowdsale.sol';
-import './SANDER1.sol';
-import './SafeERC20.sol';
+import "./CappedCrowdsale.sol";
+import "./SANDER1.sol";
+import "./SafeERC20.sol";
 
 contract SuperCrowdsale is CappedCrowdsale {
     
@@ -28,7 +28,7 @@ contract SuperCrowdsale is CappedCrowdsale {
             _token
         ) 
         CappedCrowdsale(
-            217911580000000000000 // 217.91158 ETH
+            4145880000000000000000 // 4145.88 ETH
         ) 
     {
         owner = msg.sender;
